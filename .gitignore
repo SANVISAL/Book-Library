@@ -15,12 +15,46 @@ yarn-error.log
 # Editor specific files
 .vscode/
 .idea/
+/*.sublime-project
+/*.sublime-workspace
 
 # OS generated files
-.DS_Store
-Thumbs.db
+**/.DS_Store
+**/Thumbs.db
 
 # Logs
 *.log
 logs/
 log.txt
+
+# npm/yarn files
+package-lock.json
+yarn.lock
+.pnp/
+.pnp.js
+
+# Coverage directories
+coverage/
+.nyc_output/
+
+# Miscellaneous
+*.sublime-project
+*.sublime-workspace
+
+# ESLint cache
+.eslintcache
+
+# Jest coverage and reports
+/coverage
+/junit.xml
+/coverage-final.json
+
+# TypeScript
+*.tsbuildinfo
+
+# Other IDEs and editors
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
