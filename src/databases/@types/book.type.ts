@@ -1,4 +1,4 @@
-export interface Ibookpro{
-    bookName: string,
-    author: string,
-}
+// export interface Ibookpro{
+//     bookName: string,
+//     author: string,
+// }

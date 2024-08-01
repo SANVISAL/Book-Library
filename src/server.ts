@@ -8,18 +8,6 @@ import { BooKService } from "./services/book.service";
 AppDataSource.initialize()
   .then(() => {
     console.log("Data Source has been initialized!");
-    // const bookService = new BooKService();
-    // bookService
-    //   .createBook({
-    //     bookname: "The Great Gatsby",
-    //     author: "F. Scott Fitzgerald",
-    //   })
-    //   .then((newBook) => {
-    //     console.log("Book created:", newBook);
-    //   })
-    //   .catch((error) => {
-    //     console.error("Error creating book:", error);
-    //   });
 
     // Start the server
     const port = process.env.PORT || 7500;

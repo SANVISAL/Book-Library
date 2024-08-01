@@ -1,4 +1,4 @@
-import { Ibookpro } from "../databases/@types/book.type";
+
 import { bookCreate } from "../databases/repositorys/@types/book.repo.type";
 import { BookRepository } from "../databases/repositorys/book.repository";
 import ApiError from "../errors/api-error";

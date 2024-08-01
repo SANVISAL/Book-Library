@@ -1,4 +1,4 @@
-import { Ibookpro } from "../databases/@types/book.type";
+
 import { bookCreate } from "../databases/repositorys/@types/book.repo.type";
 import { BooKService } from "../services/book.service";
 import { Body, Get, Post, Query, Route } from "tsoa";
